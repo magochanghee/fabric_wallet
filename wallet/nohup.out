@@ -1,0 +1,490 @@
+Live on port: 8000
+Live on port: 8000
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"2", "Record":{"holder":"Dave","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Igor","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Rafa","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"holder":"Igor","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"2", "Record":{"holder":"Dave","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Igor","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Rafa","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  c2527396d05efa7d29994a6d2d628f377d221cad0554fa17ae7ca9656022c3ff
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Endpoint read failed
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  4fda298e769cb785e92c5985f6e99bfc78c46cf46146ffb040457af856a9062b
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Endpoint read failed
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  fd46412a2ea3eeba695f3f75286c639db0f5ed2b76b18d5e691d2d359acbecee
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"11", "Record":{"holder":"Hansel","location":"20.012, 150.405","timestamp":"4982342391","vessel":"0239L"}},{"Key":"2", "Record":{"holder":"Dave","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Miriam","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Rafa","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  67b7fcc02f49ce5816931a696a74e358a6ffac02140a8c4b042d822db3d0c844
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  3a80b3d5fe023a1a29867e27eca09c78d51004a707715d7812a487e1ba8470d4
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  86664569ef2a34b37fc088f9fd18eac6e7c91529d6f003013cfa1bd1e0b7ccda
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"holder":"Hansel","location":"20.012, 150.405","timestamp":"4982342391","vessel":"0239L"}
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  e555fad015c26f0a9e9cbba7dae1e5ae40ccbbdb8ec713deb68449b127f424d5
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+submit recording of a tuna catch: 
+[ '11', '20.012, 150.405', '4982342391', 'Hansel', '0239L' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  66b60463810c0b4d7054b7b19e55ed6b2e8d5fa203e46fecd1014bb1fa569c35
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"11", "Record":{"holder":"Hansel","location":"20.012, 150.405","timestamp":"4982342391","vessel":"0239L"}},{"Key":"2", "Record":{"holder":"Dave","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Miriam","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Rafa","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  bb5bc29c767be2c532fe67d9dad2d0c57b678ea75297592103687538f8262bae
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  d8efa37ccd223cd06bf64c78118264d7bd7508afc9d55d2be4396e86caf77dec
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"11", "Record":{"holder":"Miriam","location":"20.012, 150.405","timestamp":"4982342391","vessel":"0239L"}},{"Key":"2", "Record":{"holder":"Dave","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Miriam","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Rafa","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  344dc000b74a043aac5c8687de3cf87385a7008c55786dba6aedd2ae9404e5f2
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  6bd18987c2b5be3354b32fbfd48964f5fe1812cb93efd3c42b1eff18fa25b094
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+getting all tuna from database: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Miriam","location":"67.0006, -70.5476","timestamp":"1504054225","vessel":"923F"}},{"Key":"10", "Record":{"holder":"Fatima","location":"51.9435, 8.2735","timestamp":"1487745091","vessel":"49W4"}},{"Key":"11", "Record":{"holder":"Miriam","location":"20.012, 150.405","timestamp":"4982342391","vessel":"0239L"}},{"Key":"2", "Record":{"holder":"Miriam","location":"91.2395, -49.4594","timestamp":"1504057825","vessel":"M83T"}},{"Key":"3", "Record":{"holder":"Miriam","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}},{"Key":"4", "Record":{"holder":"Amalea","location":"-45.0945, 0.7949","timestamp":"1496105425","vessel":"P490"}},{"Key":"5", "Record":{"holder":"Miriam","location":"-107.6043, 19.5003","timestamp":"1493512301","vessel":"S439"}},{"Key":"6", "Record":{"holder":"Shen","location":"-155.2304, -15.8723","timestamp":"1494117101","vessel":"J205"}},{"Key":"7", "Record":{"holder":"Leila","location":"103.8842, 22.1277","timestamp":"1496104301","vessel":"S22L"}},{"Key":"8", "Record":{"holder":"Yuan","location":"-132.3207, -34.0983","timestamp":"1485066691","vessel":"EI89"}},{"Key":"9", "Record":{"holder":"Carlo","location":"153.0054, 12.6429","timestamp":"1485153091","vessel":"129R"}}]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"holder":"Miriam","location":"58.0148, 59.01391","timestamp":"1493517025","vessel":"T012"}
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  64b7bd2ebe9bb15da9771ebb84a794936c491a65152d064b659a45c978b7e73e
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  d6f1e30b510d8fa38b83aed4e8ef9345236b9024fcccf3280aa0be0a89690fea
+Transaction proposal was bad
+Failed to send Proposal or receive valid response. Response null or status is not 200. exiting...
+Send transaction promise and event listener promise have completed
+Failed to invoke successfully :: ReferenceError: response is not defined
+(node:18973) UnhandledPromiseRejectionWarning: Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/ubuntu/education/LFS171x/fabric-material/tuna-app/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/ubuntu/education/LFS171x/fabric-material/tuna-app/node_modules/express/lib/response.js:170:12)
+    at Fabric_Client.newDefaultKeyValueStore.then.then.then.then.catch (/home/ubuntu/education/LFS171x/fabric-material/tuna-app/controller.js:468:11)
+    at <anonymous>
+(node:18973) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:18973) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  a8930bf5be38170ab7c3ac8feafa5151227905cc14ae6e464f5c35ef6a35234c
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  9ed0c9b99b4e9c7f1fe2d66f4e73bd32f2423179d5ce6248edafeb9055cbb1f1
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+changing holder of tuna catch: 
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  0b171950e855df16731a14411bb3ac8a5af67c2c7334f03d5a668a7f3ee840cf
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+[32minfo[39m: [EventHub.js]: _connect - options {}
+Failed to invoke successfully :: Error: There was a problem with the eventhub ::Error: Call dropped by load balancing policy
+Live on port: 8001
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Live on port: 8001
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  100
+Live on port: 8001
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8001
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (/home/ubuntu/wallet/tuna-app/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/wallet/tuna-app/server.js:36:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Live on port: 8001
+Live on port: 8001
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  100
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  200
+Live on port: 8001
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  
+Live on port: 8001
+submit recording of a technology : 
+[ 'codberg', '1000' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  479958522fad5b7ae90ec3fe8dd3f06608282c436e46ab793a278f25beec922d
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+The transaction has been committed on peer localhost:7051
+Send transaction promise and event listener promise have completed
+Successfully sent transaction to the orderer.
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"User name":"changhee",
+"amount":900}
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"User name":"codberg",
+"amount":1000}
+submit recording of a technology : 
+[ 'hyeji', 'kakak', '100' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  2fe40924a69c22610ab61dd121bd40f12af03ddb7ba50cd8314238100530466c
+Transaction proposal was bad
+Failed to send Proposal or receive valid response. Response null or status is not 200. exiting...
+Send transaction promise and event listener promise have completed
+Failed to invoke successfully :: ReferenceError: response is not defined
+(node:31921) UnhandledPromiseRejectionWarning: Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/home/ubuntu/wallet/tuna-app/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/ubuntu/wallet/tuna-app/node_modules/express/lib/response.js:170:12)
+    at Fabric_Client.newDefaultKeyValueStore.then.then.then.then.catch (/home/ubuntu/wallet/tuna-app/controller.js:401:7)
+    at <anonymous>
+(node:31921) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:31921) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+submit recording of a technology : 
+[ 'codberg', 'changhee', '200' ]
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  1f0832e2fb1b62d395c8b485ab0473d41ea31f97b73d7732340f9364da3bd2d8
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+The transaction has been committed on peer localhost:7051
+Send transaction promise and event listener promise have completed
+Successfully sent transaction to the orderer.
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"User name":"changhee",
+"amount":1100}
+Live on port: 8001
+Live on port: 8001
+Live on port: 8001
+Store path:/home/ubuntu/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"User name":"changhee",
+"amount":1100}
